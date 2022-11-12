@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">     
+    <meta name="theme-color" content="white" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />  
+    <meta http-equiv="Expires" content="0" />
+    <link rel="stylesheet" href="styles.css">
+
+    <title>VasquezParra</title>
+</head>
+
+<body>
+
+    <div class="titulo">    
+        <img src="menu.png" id="izquierda">
+        <h1>VasquezParra</h1>
+        <img src="favicon.ico" id="derecha">
+    </div>
+
+    <div id="cuerpo">
+
+        <h3>Camara Reja</h3>
+        <a href="http://200.120.15.72/video/mjpg.cgi" target="_blank">
+            <img src="http://200.120.15.72/video/mjpg.cgi" width="100%" class="redondo" style="max-height: 300px;max-width:400px" onclick="descarga()">
+        </a>
+
+
+        
+
+        <h3>El Tiempo</h3>
+        <div class="redondo">
+            <a class="weatherwidget-io" 
+            href="https://forecast7.com/es/n35d42n71d65/talca/" 
+            data-label_1="Talca" 
+            data-font="Open Sans" 
+            data-icons="Climacons" 
+            data-theme="weather_one" >
+            El Tiempo en Talca            
+        </a>
+        <script>
+            !function(d,s,id){
+                var js,fjs=d.getElementsByTagName(s)[0];
+                if(!d.getElementById(id)){
+                    js=d.createElement(s);
+                    js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';
+                    fjs.parentNode.insertBefore(js,fjs);
+                }
+            }
+            (document,'script','weatherwidget-io-js');
+        </script>
+    </div>  
+
+
+    <h3>Log de Acceso</h3>
+    <div class="redondo margen">
+
+        <div class="fijo">21:10:50 - 200.120.15.72</div><div class="fijo">19:32:47 - 200.120.15.72</div><div class="fijo">18:12:46 - 200.120.15.72</div><div class="fijo">18:43:07 - 200.120.15.72</div><div class="fijo">14:53:42 - 186.156.192.148</div><div class="fijo">14:38:14 - 186.156.192.148</div><div class="fijo">14:14:23 - 186.67.71.58</div><div class="fijo">14:12:05 - 186.67.71.58</div><div class="fijo">22:15:14 - 200.120.15.72</div><div class="fijo">22:08:07 - 200.120.15.72</div><div class="fijo">22:07:36 - 200.120.15.72</div><div class="fijo">22:04:23 - 200.120.15.72</div><div class="fijo">22:04:05 - 200.120.15.72</div><div class="fijo">22:03:39 - 200.120.15.72</div><div class="fijo">21:38:38 - 200.120.15.72</div><div class="fijo">21:37:10 - 200.120.15.72</div><div class="fijo">21:26:19 - 200.120.15.72</div><div class="fijo">16:12:30 - 190.13.181.50</div><div class="fijo">16:10:20 - 186.156.137.193</div><div class="fijo">13:25:10 - 186.156.137.193</div>        </div>
+
+        <h3>Tus datos guardados</h3>
+        <div class="redondo margen">
+            <h3>200.120.15.72</h3>
+            Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42        </div>
+
+        <br>
+        <center>
+            VasquezParra 2022
+        </center>
+        <br>
+        </html>
+    </body>
+
